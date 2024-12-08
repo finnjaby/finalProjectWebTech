@@ -1,0 +1,112 @@
+*{
+    margin:0px;
+    padding:0px;
+    font-family:comic,Helvetica,sans-serif;
+    box-sizing: border-box;
+}
+
+.wrapper{
+    margin:0;
+    width: 1000;
+}
+
+.Bp{
+    width:100%;
+    min-height: 50px;
+    background:#6A7B8C;
+    border: 1px solid black;
+    padding-left:2%;
+    line-height: 50px;
+    text-align: center;
+    font-family: 'Comic Sans Ms';
+}
+#main{
+    width:100%;
+    min-height: 210px;
+}
+
+#section{
+    width:100%;
+    min-height: 25px;
+    background-color:#D3D3D3;
+    line-height: 50px;
+    text-align: center;
+    margin: auto;
+    text-size-adjust: 100px;
+}
+
+.sub
+{
+    background-color: #D3D3D3;
+    min-height: 25px;
+    min-width: 100px;
+    text-align: center;
+}
+
+.baby-girl{
+    width: 200px;
+    height:250px;
+    background-image: url(../Web_project/mainPicture.images/Baby\ Girl.jpeg);
+    background-size: cover;
+    margin:auto;
+}
+
+.baby-boy{
+    width: 200px;
+    height:250px;
+    background-image: url(../Web_project/mainPicture.images/Baby\ Boy.jpeg);
+    background-size: cover;
+    margin:auto;
+}
+
+.girls{
+    width: 200px;
+    height:250px;
+    background-image: url(../Web_project/christmasJumpers.images/cj\ 19.jpeg);
+    background-size: cover;
+    margin:auto;
+}
+
+.boys{
+    width: 200px;
+    height:250px;
+    background-image: url(../Web_project/mainPicture.images/Boys\ 2.webp);
+    background-size: cover;
+    margin:auto;
+}
+
+#table{
+    text-align: center;
+    width:100%;
+    table-layout: fixed;
+    background-color:#6A7B8C;
+}
+#section2{
+    width:100%;
+    min-height: 25px;
+    background-color:#D3D3D3;
+    line-height: 50px;
+    text-align: left;
+    margin: auto;
+    text-size-adjust: 100px;
+    font-family: 'Comic Sans Ms';
+}
+.box2
+{
+    float:left;
+}
+.background{
+    width:100%;
+    height: 100%;
+    background-image:url(../Web_project/mainPicture.images/background.jpg);
+}
+.sub2{
+    text-align: center;
+    font-family: 'Comic Sans Ms';
+}
+#photo{
+    margin-top: 5px;
+}
+#photo2{
+    margin-top: 15px;
+}

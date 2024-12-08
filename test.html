@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <table>
+        <tr>
+            <td> picture</td>
+            <td> picture</td>
+            <td> picture</td>
+        </tr>
+
+        <tr>
+            <td> picture</td>
+            <td> picture</td>
+            <td> picture</td>
+        </tr>
+        
+        <tr>
+            <td> picture</td>
+            <td> picture</td>
+            <td> picture</td>
+        </tr>
+
+        <tr>
+            <td> Picture</td>
+        </tr>
+    </table>
+
+    table {
+        width: 100%; /* Make the table occupy the full width */
+        table-layout: fixed; /* Makes the columns even and fit the available space */
+      }
+      
+      td {
+        text-align: center; /* Centers the images inside the table cells */
+        padding: 10px; /* Adds some space around the images */
+      }
+      
+      img {
+        width: 100%; /* Make images responsive */
+        height: auto; /* Maintain aspect ratio */
+        max-width: 100%; /* Ensures images don't stretch beyond the cell */
+      }
+      <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Image Table</title>
+  <style>
+    table {
+      width: 100%;
+      table-layout: fixed; /* Ensures columns take up equal space */
+      border-collapse: collapse; /* Removes spacing between cells */
+      margin: 20px 0;
+    }
+
+    td {
+      text-align: center; /* Centers images */
+      padding: 10px;
+    }
+
+    img {
+      width: 100%; /* Make images responsive and fill the cell */
+      height: auto; /* Maintain aspect ratio */
+      max-width: 100%; /* Ensures images don't stretch beyond the container */
+    }
+  </style>
+</head>
+<body>
+
+  <table>
+    <tr>
+      <td><img src="image1.jpg" alt="Image 1"></td>
+      <td><img src="image2.jpg" alt="Image 2"></td>
+      <td><img src="image3.jpg" alt="Image 3"></td>
+    </tr>
+    <tr>
+      <td><img src="image4.jpg" alt="Image 4"></td>
+      <td><img src="image5.jpg" alt="Image 5"></td>
+      <td><img src="image6.jpg" alt="Image 6"></td>
+    </tr>
+  </table>
+
+</body>
+</html>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Table beside Container</title>
+  <style>
+    .wrapper {
+      display: flex; /* This makes the container a flexbox */
+      justify-content: space-between; /* Optional: Adds space between the table and container */
+      align-items: flex-start; /* Aligns items at the top of the container */
+      gap: 20px; /* Adds space between the table and the container */
+    }
+
+    .container {
+      width: 50%; /* You can adjust the width as needed */
+      background-color: #f0f0f0;
+      padding: 20px;
+      box-sizing: border-box;
+    }
+
+    table {
+      width: 50%; /* Table will take up 50% of the available space */
+      border-collapse: collapse;
+    }
+
+    th, td {
+      padding: 10px;
+      border: 1px solid #ddd;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="wrapper">
+    <div class="container">
+      <h2>Container Content</h2>
+      <p>This is a container with some text. It can contain any content like text, images, forms, etc.</p>
+    </div>
+
+    <table>
+      <thead>
+        <tr>
+          <th>Header 1</th>
+          <th>Header 2</th>
+          <th>Header 3</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Row 1, Col 1</td>
+          <td>Row 1, Col 2</td>
+          <td>Row 1, Col 3</td>
+        </tr>
+        <tr>
+          <td>Row 2, Col 1</td>
+          <td>Row 2, Col 2</td>
+          <td>Row 2, Col 3</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+</body>
+</html>
+
+</body>
+</html>
