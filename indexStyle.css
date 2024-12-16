@@ -15,7 +15,21 @@
     margin:auto;
     background-image:url('backg.jpg');
 }
-
+#header{
+    width:100%;
+    min-height: 20px;
+    line-height: 20px;
+    background-color: #D3D3D3;
+    padding-left:10px;
+    a{
+        text-decoration:none;
+        color: #000
+       }
+    
+    a:hover {
+        background-color: #6A7B8C;
+      }
+}
 #boxes{
     width: 100%;
     min-height: 50px;
