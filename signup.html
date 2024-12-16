@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign up</title>
+    <link rel="stylesheet" href="womenStyle.css">
+    <script src ="signUp.js">
+    </script>
+
+</head>
+<body>
+    <div id="wrapper">
+        <div id="header">
+             <h3> Sign up </h3>
+        </div>
+    <p style="text-align: center;"> Input your details please</p>
+    <div id="table">
+        <table class="center">
+        <form>
+            <tr>
+                <td>
+            <label for="fname"> First Name:</label>
+                </td>
+                <td>
+                    <input id="fname" type="text" name="firName" size="30">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="lname"> Last Name:</label>
+                </td>
+                <td>
+                    <input id="lname" type="text" name="lName" size="30">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="email"> E-Mail:</label>
+                </td>
+                <td>
+                    <input id="email" type="text" name="email" size="30">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="age">Age:</label>
+                </td>
+                <td>
+                    <input id="age" name="age" type="number" min="0" max="120" step="1">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <p> What section/s do you typically shop in? </p>  
+                </td>
+            
+            </tr>
+            <tr>
+                <td>
+                    <label for="women"> Women</label>
+                </td>
+                <td>
+                    <input type="checkbox" id="women" name="women" value="women">
+
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="men"> Men</label>
+                </td>
+                <td>
+                    <input type="checkbox" id="men" name="men" value="men">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="child"> Children </label>
+                </td>
+                <td>
+                    <input type="checkbox" id="child" name="child" value="child">
+                </td>
+            </tr>
+        </table>
+        </div>
+
+        <div id="footer">
+            <div>
+                <p style="text-align: center;"> Submit your input here: <button type="button" value="signUp" onclick="signUp()"> Sign Up! </button></p>
+            </div>
+        </div>
+
+</div>
+</body>
+</html>
